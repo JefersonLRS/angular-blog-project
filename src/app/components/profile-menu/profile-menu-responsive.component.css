@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    .container__profile-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container__profile-content > .container__profile-content-img > img {
+        width: 250px;
+    }
+    .container__profile-content-text > h2 {
+        text-align: center;
+        margin: auto;
+    }
+    .container__profile-content-text > p {
+        text-align: center;
+        width: 270px;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .container__profile-social-media > a > img {
+        width: 60px;
+        z-index: 10;
+        background-color: transparent;
+        opacity: 80%;
+        margin-bottom: -1.5rem;
+        transition: opacity 0.5s, transform 0.5s;
+    }
+}

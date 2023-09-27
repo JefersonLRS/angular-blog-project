@@ -1,13 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  background-color: #111111;
-  color:white;
-  font-family: 'Segoe UI';
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-a{
-  text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #060a11;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+html {
+    scroll-behavior: smooth; /* Adicione um comportamento suave de rolagem a toda a página */
 }
